@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/blue"
+    android:padding="16dp">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Profile"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Name Input -->
+    <EditText
+        android:id="@+id/edit_mentor_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:background="@drawable/input_field_background"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        android:inputType="textPersonName"/>
+
+    <!-- Title Input -->
+    <EditText
+        android:id="@+id/edit_mentor_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:background="@drawable/input_field_background"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        android:inputType="text"/>
+
+    <!-- Experience Input -->
+    <EditText
+        android:id="@+id/edit_mentor_experience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Experience (Years)"
+        android:background="@drawable/input_field_background"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        android:inputType="number"/>
+
+    <!-- Bio Input -->
+    <EditText
+        android:id="@+id/edit_mentor_bio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bio"
+        android:background="@drawable/input_field_background"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:inputType="textMultiLine"
+        android:minLines="3"/>
+
+    <!-- Update Button -->
+    <Button
+        android:id="@+id/btn_update_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:textStyle="bold"
+        android:backgroundTint="@color/blue"
+        android:textColor="@android:color/white"
+        android:layout_gravity="end"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

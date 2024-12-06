@@ -1,0 +1,31 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E5E5E5"
+    android:padding="8dp">
+
+    <EditText
+        android:id="@+id/searchSkill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search skills or mentors"
+        android:padding="12dp"
+        android:background="@drawable/round_corners"
+        android:drawableLeft="@drawable/ic_search"
+        android:drawablePadding="8dp"
+        android:layout_marginBottom="12dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="16sp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvSkills"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:clipToPadding="false"
+        android:paddingBottom="8dp"/>
+</LinearLayout>

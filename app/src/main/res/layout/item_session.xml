@@ -1,0 +1,43 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textViewSessionTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Session Title"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewSessionDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Session Date"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textViewProgressStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Progress Status"
+            android:textSize="14sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btnViewProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Progress"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

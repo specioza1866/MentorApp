@@ -1,0 +1,61 @@
+<resources>
+    <!-- Scalable DPs (sdp) -->
+    <dimen name="_5sdp">5dp</dimen>
+    <dimen name="_10sdp">10dp</dimen>
+    <dimen name="_12sdp">12dp</dimen>
+    <dimen name="_15sdp">15dp</dimen>
+    <dimen name="_20sdp">20dp</dimen>
+    <dimen name="_25sdp">25dp</dimen>
+    <dimen name="_30sdp">30dp</dimen>
+    <dimen name="_35sdp">35dp</dimen>
+    <dimen name="_40sdp">40dp</dimen>
+    <dimen name="_50sdp">50dp</dimen>
+    <dimen name="_60sdp">60dp</dimen>
+    <dimen name="_24sdp">24dp</dimen>
+    <dimen name="_22ssp">22sp</dimen>
+
+    <!-- Scalable SPs (ssp) for Text Sizes -->
+    <dimen name="_12ssp">12sp</dimen>
+    <dimen name="_14ssp">14sp</dimen>
+    <dimen name="_16ssp">16sp</dimen>
+    <dimen name="_18ssp">18sp</dimen>
+    <dimen name="_20ssp">20sp</dimen>
+    <dimen name="_25ssp">25sp</dimen>
+    <dimen name="_30ssp">30sp</dimen>
+    <dimen name="_35ssp">35sp</dimen>
+    <dimen name="_40ssp">40sp</dimen>
+    <dimen name="_50ssp">50sp</dimen>
+    <dimen name="_60ssp">60sp</dimen>
+
+    <!-- Commonly Used Margins -->
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="card_margin">5dp</dimen>
+
+    <!-- Commonly Used Paddings -->
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">12dp</dimen>
+    <dimen name="_1sdp">1dp</dimen>
+    <dimen name="_2sdp">2dp</dimen>
+    <dimen name="_3sdp">3dp</dimen>
+    <dimen name="_4sdp">4dp</dimen>
+    <dimen name="_6sdp">6dp</dimen>
+    <dimen name="_7sdp">7dp</dimen>
+    <dimen name="_8sdp">8dp</dimen>
+    <dimen name="_9sdp">9dp</dimen>
+
+
+    <!-- Scalable SPs (ssp) for Text Sizes -->
+    <dimen name="_1ssp">1sp</dimen>
+    <dimen name="_2ssp">2sp</dimen>
+    <dimen name="_3ssp">3sp</dimen>
+    <dimen name="_4ssp">4sp</dimen>
+    <dimen name="_5ssp">5sp</dimen>
+    <dimen name="_6ssp">6sp</dimen>
+    <dimen name="_7ssp">7sp</dimen>
+    <dimen name="_8ssp">8sp</dimen>
+    <dimen name="_9ssp">9sp</dimen>
+    <dimen name="_10ssp">10sp</dimen>
+</resources>

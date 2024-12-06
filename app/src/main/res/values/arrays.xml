@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="role_options">
+        <item>MENTOR</item>
+        <item>MENTEE</item>
+    </string-array>
+        <string-array name="expertise_levels">
+            <item>Any</item>
+            <item>Beginner</item>
+            <item>Intermediate</item>
+            <item>Advanced</item>
+        </string-array>
+
+        <string-array name="experience_levels">
+            <item>0</item>
+            <item>1</item>
+            <item>2</item>
+            <item>3</item>
+            <item>5</item>
+            <item>10</item>
+        </string-array>
+
+        <string-array name="rating_levels">
+            <item>0.0</item>
+            <item>2.0</item>
+            <item>3.0</item>
+            <item>4.0</item>
+            <item>5.0</item>
+        </string-array>
+</resources>

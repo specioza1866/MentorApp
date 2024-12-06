@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "356593527001",
+    "firebase_url": "https://mentorconnect-f2677-default-rtdb.firebaseio.com",
+    "project_id": "mentorconnect-f2677",
+    "storage_bucket": "mentorconnect-f2677.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356593527001:android:9dc95a4cba9b49b48af6c8",
+        "android_client_info": {
+          "package_name": "nt.vn.mentorapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFnU9K070YDPRkFrdACZ5vvGqIUmyYhFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356593527001:android:072387f5bc7307d38af6c8",
+        "android_client_info": {
+          "package_name": "nt.vn.mentorconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFnU9K070YDPRkFrdACZ5vvGqIUmyYhFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

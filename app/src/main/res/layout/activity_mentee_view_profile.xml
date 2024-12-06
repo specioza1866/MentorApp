@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0824D1"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Profile Picture -->
+        <ImageView
+            android:id="@+id/mentee_profile_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/baseline_account_circle_24"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/profile_image_desc"/>
+
+        <!-- Full Name -->
+        <TextView
+            android:id="@+id/mentee_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jane Doe"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center_horizontal"/>
+
+        <!-- Goals Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Goals"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/mentee_goals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Become proficient in Android Development"
+            android:textSize="16sp"
+            android:textColor="@android:color/darker_gray"
+            android:paddingTop="4dp"/>
+
+        <!-- Skills Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skills"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/mentee_skills"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kotlin, UI/UX, Problem-Solving"
+            android:textSize="16sp"
+            android:textColor="@android:color/darker_gray"
+            android:paddingTop="4dp"/>
+
+        <!-- Progress Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Progress"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/mentee_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Completed 3 projects in Android Development"
+            android:textSize="16sp"
+            android:textColor="@android:color/darker_gray"
+            android:paddingTop="4dp"/>
+
+        <!-- Contact Mentor Button -->
+        <Button
+            android:id="@+id/btn_contact_mentor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Mentor"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+</ScrollView>

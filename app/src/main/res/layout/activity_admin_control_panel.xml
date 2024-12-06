@@ -1,0 +1,232 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4B5ED6"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Mentor Dashboard Heading -->
+    <TextView
+        android:id="@+id/mentorDashboardTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Dashboard"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Card 1: Add Skills -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardAddSkills"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginEnd="8dp"
+        app:cardElevation="4dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/mentorDashboardTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cardViewMentees"
+        app:layout_constraintWidth_percent="0.5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/iconAddSkills"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_connect"
+                android:contentDescription="Add Skills Icon" />
+
+            <TextView
+                android:id="@+id/addSkillsText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Connection Requests"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Card 2: View Mentees -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewMentees"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginStart="8dp"
+        app:cardElevation="4dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/mentorDashboardTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cardAddSkills"
+        app:layout_constraintWidth_percent="0.5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/iconViewMentees"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_view_mentees"
+                android:contentDescription="View Mentees Icon" />
+
+            <TextView
+                android:id="@+id/viewMenteesText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Mentees"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Card 3: View Mentors -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewMentors"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/cardAddSkills"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cardViewReports"
+        app:layout_constraintWidth_percent="0.5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/iconViewMentors"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_view_mentees"
+                android:contentDescription="View Mentors Icon" />
+
+            <TextView
+                android:id="@+id/viewMentorsText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Mentors"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Card 4: Review Progress -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardReviewProgress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/cardViewMentors"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cardViewReports"
+        app:layout_constraintWidth_percent="0.5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/iconReviewProgress"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_review_progress"
+                android:contentDescription="Review Progress Icon" />
+
+            <TextView
+                android:id="@+id/reviewProgressText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Review Progress"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Card 5: View Reports -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewReports"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/cardViewMentees"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cardReviewProgress"
+        app:layout_constraintWidth_percent="0.5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/iconViewReports"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_view_reports"
+                android:contentDescription="View Reports Icon" />
+
+            <TextView
+                android:id="@+id/viewReportsText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Reports"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

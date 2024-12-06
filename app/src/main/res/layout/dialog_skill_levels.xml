@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <!-- Expertise Level Selection -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Expertise Level"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <Spinner
+        android:id="@+id/filterExpertise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/expertise_levels"
+        android:padding="8dp"/>
+
+    <!-- Optional Experience Level Selection -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Experience Level"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <Spinner
+        android:id="@+id/filterExperience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/experience_levels"
+        android:padding="8dp"/>
+
+    <!-- Optional Rating Level Selection -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Rating"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <Spinner
+        android:id="@+id/filterRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/rating_levels"
+        android:padding="8dp"/>
+</LinearLayout>

@@ -1,0 +1,65 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Mentor Name -->
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mentor Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp" />
+
+    <!-- Skill -->
+    <TextView
+        android:id="@+id/skillTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skill"
+        android:textSize="16sp"
+        android:paddingBottom="4dp" />
+
+    <!-- Expertise -->
+    <TextView
+        android:id="@+id/expertiseTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expertise"
+        android:textSize="14sp"
+        android:paddingBottom="4dp" />
+
+    <!-- Experience -->
+    <TextView
+        android:id="@+id/experienceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Experience: 0 years"
+        android:textSize="14sp"
+        android:paddingBottom="4dp" />
+
+    <!-- Rating -->
+    <TextView
+        android:id="@+id/ratingTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rating: 0.0"
+        android:textSize="14sp"
+        android:paddingBottom="12dp" />
+
+    <!-- Connection Request Button -->
+    <Button
+        android:id="@+id/connectionRequestButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Connection Request"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/blue"
+        android:textColor="@android:color/white"
+        android:padding="12dp" />
+</LinearLayout>
